@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Insert title here</title>
+<style>
+	h1
+	{
+		background-color : yellow;
+		font-style: italic;
+		text-align: center;
+		
+	}
+	section
+	{
+		margin: auto;
+	}
+	
+	div
+	{
+		width: 1000px;
+		margin: auto;
+		border:3px solid;
+		border-color: grey;
+		font-size: 30px;
+		text-align: center;
+		background: #f00;
+		background: linear-gradient(45deg, #f00, #fff);
+	}
+	p
+	{
+		border:0.5px solid;
+		border-color: grey;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		
+		font-size: 20px; 
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+<h1>메모장</h1><hr>
+
+<form method="post" action="memo_write.jsp">
+
+<section>
+<input type="text" name="memo" placeholder="메모입력 여기로 하세여 !!!!!" size="50"></input>
+<input type="submit" value="등록"></input>
+</section>
+
+<div>
+<p>
+(4/7 15:13) 오늘은 금요일 ~~~~~~~ <input type="button" value="X"></input>
+</p>
+
+<p>
+(4/7 11:10) 수업 언제 끝???? <input type="button" value="X"></input>
+</p>
+
+<p>
+(4/5 12:00) ㅎㅇㅎㅇ 수업중 <input type="button" value="X"></input>
+</p>
+
+<p>
+(4/3 2:00) 안녕하세요 <input type="button" value="X"></input>
+</p>
+
+<p>
+(4/2 12:00) FIRST <input type="button" value="X"></input>
+</p>
+
+</div>
+
+</form>
+
+
+</body>
+</html>
